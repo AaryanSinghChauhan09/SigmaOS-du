@@ -2,9 +2,10 @@
 name = "sigmaos_du"
 version = "0.1.0"
 edition = "2021"
-
-[dependencies]
+description = "SigmaOS du disk usage model: file/directory size calculation, human-readable formatting"
 
 [lib]
 name = "sigmaos_du"
 path = "src/lib.rs"
+
+[dependencies]
